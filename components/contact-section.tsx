@@ -11,10 +11,10 @@ export function ContactSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/yourusername", label: "Twitter" },
-    { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/astroboy20", label: "GitHub" },
+    // { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
+    { icon: Twitter, href: "https://x.com/BuildWithTolu?t=FegVsRg-Ueha7kgR0TbeYQ&s=09", label: "Twitter" },
+    { icon: Mail, href: "mailto:your.tolulopeakinkunmi7@gmail.com", label: "Email" },
   ]
 
   return (
@@ -57,7 +57,7 @@ export function ContactSection() {
                       href="mailto:your.email@example.com"
                       className="font-serif text-lg hover:text-primary transition-colors"
                     >
-                      your.email@example.com
+                      tolulopeakinkunmi7@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center justify-center gap-3">
@@ -68,7 +68,7 @@ export function ContactSection() {
 
                 <div>
                   <h4 className="text-lg font-sans font-semibold mb-6">Connect With Me</h4>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                     {socialLinks.map((social, index) => (
                       <motion.a
                         key={social.label}

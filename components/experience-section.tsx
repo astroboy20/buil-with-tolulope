@@ -64,8 +64,7 @@ export function ExperienceSection() {
           </p>
         </motion.div>
 
-        <div className="relative">
-          {/* Timeline line */}
+        {/* <div className="relative">
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-border hidden md:block" />
 
           <div className="space-y-8">
@@ -77,7 +76,6 @@ export function ExperienceSection() {
                 transition={{ duration: 0.8, delay: index * 0.2 }}
                 className="relative"
               >
-                {/* Timeline dot */}
                 <div className="absolute left-6 top-6 w-4 h-4 bg-primary rounded-full border-4 border-background shadow-lg hidden md:block" />
 
                 <Card className="md:ml-16 hover:shadow-lg transition-shadow duration-300">
@@ -113,7 +111,7 @@ export function ExperienceSection() {
               </motion.div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

@@ -66,8 +66,7 @@ export function AboutSection() {
         </motion.div>
 
         <div className="space-y-12">
-          {/* Journey Timeline */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -92,7 +91,7 @@ export function AboutSection() {
                 </Card>
               </motion.div>
             ))}
-          </motion.div>
+          </motion.div> */}
 
           {/* Journey Story */}
           <motion.div

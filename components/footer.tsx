@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button"
 
 export function Footer() {
   const socialLinks = [
-    { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/yourusername", label: "Twitter" },
-    { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/astroboy20", label: "GitHub" },
+    // { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
+    { icon: Twitter, href: "https://x.com/BuildWithTolu?t=FegVsRg-Ueha7kgR0TbeYQ&s=09", label: "Twitter" },
+    { icon: Mail, href: "mailto:your.tolulopeakinkunmi7@gmail.com", label: "Email" },
   ]
 
   const scrollToTop = () => {
@@ -35,7 +35,7 @@ export function Footer() {
                 <Code className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="text-2xl font-sans font-bold">Portfolio</h3>
+                <h3 className="text-2xl font-sans font-bold">BuildWithTolulope</h3>
                 <p className="text-sm text-muted-foreground font-serif">Software Engineer</p>
               </div>
             </div>
@@ -73,7 +73,7 @@ export function Footer() {
                 <button
                   key={link}
                   onClick={() => document.getElementById(link.toLowerCase())?.scrollIntoView({ behavior: "smooth" })}
-                  className="block text-muted-foreground hover:text-primary transition-colors font-serif hover:translate-x-1 transition-transform duration-300"
+                  className="block text-muted-foreground hover:text-primary transition-colors font-serif hover:translate-x-1 hover:transition-transform duration-300"
                 >
                   {link}
                 </button>
@@ -82,7 +82,7 @@ export function Footer() {
           </motion.div>
 
           {/* Tech Stack */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -107,7 +107,7 @@ export function Footer() {
                 Framer Motion
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
 
         {/* Bottom Section */}
