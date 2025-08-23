@@ -68,7 +68,7 @@ export function ContactSection() {
 
                 <div>
                   <h4 className="text-lg font-sans font-semibold mb-6">Connect With Me</h4>
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {socialLinks.map((social, index) => (
                       <motion.a
                         key={social.label}
