@@ -29,13 +29,13 @@ export function Navigation() {
 
   return (
     <motion.nav
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
       className={`fixed w-auto top-5 left-0 right-0 mx-5 flex justify-center items-center lg:mx-10 z-50 transition-all duration-300`}
     >
-      <div className="container max-w-6xl mx-auto px-4 py-4  flex items-center justify-center">
+      <div className="container max-w-6xl mx-auto   flex items-center justify-center">
         <div
-          className={`flex items-center justify-between mx-auto rounded-full border border-gray-200 p-5  ${
+          className={`flex items-center justify-between mx-auto rounded-full border border-gray-200 p-3  ${
             isScrolled
               ? "bg-background/80 backdrop-blur-md border-b"
               : "bg-transparent"
