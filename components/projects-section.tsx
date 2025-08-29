@@ -15,37 +15,33 @@ export function ProjectsSection() {
 
   const projects = [
     {
-      id: "futamart",
-      name: "FUTAMART",
+      id: "finsight",
+      name: "FinSight",
       description:
-        "Multi-vendor e-commerce platform with real-time inventory management and seamless payment integration.",
-      image: "/images/futamart.png",
-      tech: ["Next.js", "TypeScript", "Stripe", "Firebase"],
+        "A financial analysis tool that provides instant insights by securely uploading and processing bank statements, helping users better understand their spending and income patterns.",
+      image: "/images/finsight.png",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "Node.js",
+        "Express",
+        "MongoDB",
+      ],
       status: "Live",
-      liveUrl: "https://futamart.vercel.app/",
-      githubUrl: "https://github.com/astroboy20/futamart_new",
+      liveUrl: "https://finsight-gamma.vercel.app/",
+      githubUrl: "https://github.com/astroboy20/finsight",
     },
     {
-      id: "cliqpod",
-      name: "Cliqpod",
+      id: "midi-minuit",
+      name: "Midi-Minuit",
       description:
-        "Real-time event memory sharing platform enabling instant photo and video collaboration during events.",
-      image: "/images/cliqpod.png",
-      tech: ["Next.js", "WebSockets", "Node.js", "MongoDB", "AWS S3"],
+        "A French blog that covers a variety of topics including sports, lifestyle, music/rap, and cinema, providing engaging and culturally rich content for its readers.",
+      image: "/images/midi-minuit.png",
+      tech: ["Next.js", "TypeScript", "Tailwind", "Sanity CMS"],
       status: "Live",
-      liveUrl: "https://camera-app-flame.vercel.app/",
-      githubUrl: "https://github.com/astroboy20/pov",
-    },
-    {
-      id: "tagbox",
-      name: "Tagbox",
-      description:
-        "Event booking platform with QR code invitations and integrated gifting system for seamless event management.",
-      image: "/images/tagbox.png",
-      tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "QR API"],
-      status: "Live",
-      liveUrl: "https://tagbox-gray.vercel.app/",
-      githubUrl: "https://github.com/astroboy20/tagbox",
+      liveUrl: "https://midi-miniut.vercel.app/",
+      githubUrl: "https://github.com/astroboy20/Midi-miniut",
     },
     {
       id: "gma-pay",
@@ -53,21 +49,17 @@ export function ProjectsSection() {
       description:
         "A streamlined hostel payment platform that allows students to easily select and pay for their accommodation online, eliminating queues and paperwork.",
       image: "/images/gma-pay.png",
-      tech: ["Next.js", "TypeScript", "Tailwind", "Supabase", "Stripe"],
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "Node.js",
+        "Express",
+        "MongoDB",
+      ],
       status: "In Development",
       liveUrl: "https://gma-hostelpay.vercel.app/",
       githubUrl: "https://github.com/astroboy20/gma-hostelpay",
-    },
-    {
-      id: "finsight",
-      name: "FinSight",
-      description:
-        "A financial analysis tool that provides instant insights by securely uploading and processing bank statements, helping users better understand their spending and income patterns.",
-      image: "/images/finsight.png",
-      tech: ["Next.js", "TypeScript", "Tailwind", "Supabase", "Stripe"],
-      status: "Live",
-      liveUrl: "https://finsight-gamma.vercel.app/",
-      githubUrl: "https://github.com/astroboy20/finsight",
     },
     {
       id: "fitkeep",
@@ -80,6 +72,39 @@ export function ProjectsSection() {
       status: "Live",
       // liveUrl: "https://fitkeep.app",
       githubUrl: "https://github.com/astroboy20/fitkeep",
+    },
+    {
+      id: "futamart",
+      name: "FUTAMART",
+      description:
+        "Multi-vendor e-commerce platform with real-time inventory management and seamless payment integration.",
+      image: "/images/futamart.png",
+      tech: ["Next.js", "Redux-ToolKit", "Web-Socket", "Cloudinary"],
+      status: "Live",
+      liveUrl: "https://futamart.vercel.app/",
+      githubUrl: "https://github.com/astroboy20/futamart_new",
+    },
+    {
+      id: "cliqpod",
+      name: "Cliqpod",
+      description:
+        "Real-time event memory sharing platform enabling instant photo and video collaboration during events.",
+      image: "/images/cliqpod.png",
+      tech: ["Next.js", "WebSockets", "Node.js", "MongoDB", "Cloudinary"],
+      status: "Live",
+      liveUrl: "https://camera-app-flame.vercel.app/",
+      githubUrl: "https://github.com/astroboy20/pov",
+    },
+    {
+      id: "tagbox",
+      name: "Tagbox",
+      description:
+        "Event booking platform with QR code invitations and integrated gifting system for seamless event management.",
+      image: "/images/tagbox.png",
+      tech: ["Next.js", "TypeScript", "Tailwind", "Redux-Toolkit", "QR API"],
+      status: "Live",
+      liveUrl: "https://tagbox-gray.vercel.app/",
+      githubUrl: "https://github.com/astroboy20/tagbox",
     },
   ];
 
